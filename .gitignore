@@ -1,0 +1,12 @@
+/.dart_tool/
+/.idea/
+/.vscode/
+/build/
+/.packages
+.dart_tool/
+.packages
+pubspec.lock
+android/key.properties
+**/gradle-wrapper.jar
+**/local.properties
+assets/**/keys.json

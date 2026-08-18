@@ -1,0 +1,46 @@
+name: pinpoint
+description: A fast, private, offline-first GPS Bookmark App
+publish_to: none
+version: 0.1.0
+environment:
+  sdk: ">=2.19.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  flutter_riverpod: ^2.3.6
+
+  # Navigation
+  go_router: ^7.0.0
+
+  # Maps
+  maplibre_gl: ^0.15.0
+
+  # Location
+  geolocator: ^9.0.2
+  permission_handler: ^10.4.0
+
+  # Storage
+  shared_preferences: ^2.1.1
+  path_provider: ^2.0.14
+
+  # Database
+  drift: ^2.6.0
+  sqlite3_flutter_libs: ^0.5.6
+
+  # Utilities
+  intl: ^0.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.6
+  drift_dev: ^2.6.0
+  mocktail: ^0.3.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
