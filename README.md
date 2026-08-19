@@ -22,6 +22,10 @@ Roadmap
 
 See ROADMAP.md
 
+Implementation approach
+
+See docs/PINPOINT_IMPLEMENTATION_APPROACH.md for the full implementation approach and milestone plan. Sprint 1 implements the Milestone 1 project foundation described there.
+
 Notes
 
 - API keys must NOT be committed. Use --dart-define.
