@@ -10,3 +10,4 @@ android/key.properties
 **/gradle-wrapper.jar
 **/local.properties
 assets/**/keys.json
+.DS_Store
